@@ -1,24 +1,23 @@
 <template>
-  <div class="home">
-    {{msg}}
-  </div>
+    <div>
+        <Header></Header>
+    </div>
 </template>
 
-<script>
+<script type="text/javascript">
+import Header from '../../commons/Header';
 export default {
-  name: 'Home',
-  data () {
-    return {
-      msg: 'Home'
+    name: 'Home',
+    data() {
+        return {
+            msg: 'Home'
+        }
+    },
+    components:{
+        Header
     }
-  }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-@import url('../../../styles/main.less');
-.home{
-  color:red;
-}
-</style>
+
