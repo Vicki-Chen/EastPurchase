@@ -21,12 +21,15 @@
 
 <style lang="less" scoped="scoped">
 	@import url('../../styles/main.less');
-	#Nav{
+	#Nav{		
 		ul{
 			display:flex;
 			.h(40);
-			li{
-				
+			position:fixed;
+			.top(54);
+			.left(0);
+			right:0;
+			li{				
 				list-style: none;
 				flex:1;
 				.h(40);
@@ -42,5 +45,17 @@
 				color:red;
 			}
 		}
+	}
+	#Nav:after {
+	    content: "020";
+	    display: block;
+	    height: 0;
+	    visibility: hidden;
+	    clear: both;
+	    overflow:hidden;
+	    
+	}
+	.clearfix {
+	    zoom: 1;
 	}
 </style>

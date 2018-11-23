@@ -2,9 +2,12 @@
     <div>
         <Header></Header>
         <Nav></Nav>
+		 <Banner></Banner>
         <HomeList></HomeList>
+		<ProductList></ProductList>
         <HomeBanner></HomeBanner>
         <HomeGoods></HomeGoods>
+        <Footer></Footer>
     </div>
 </template>
 
@@ -14,6 +17,9 @@ import Nav from '../../commons/Nav';
 import HomeList from './HomeList';
 import HomeBanner from './HomeBanner';
 import HomeGoods from './HomeGoods';
+import Banner from './Banner';
+import ProductList from './ProductList';
+import Footer from './Footer';
 export default {
     name: 'Home',
     data() {
@@ -26,7 +32,7 @@ export default {
         Nav,
         HomeList,
         HomeBanner,
-        HomeGoods
+        HomeGoods,Banner,ProductList,Footer
     }
 }
 </script>
