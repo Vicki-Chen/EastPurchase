@@ -2,14 +2,18 @@
     <div>
         <Header></Header>
         <Nav></Nav>
-        <Footer></Footer>
+        <HomeList></HomeList>
+        <HomeBanner></HomeBanner>
+        <HomeGoods></HomeGoods>
     </div>
 </template>
 
 <script type="text/javascript">
 import Header from '../../commons/Header';
 import Nav from '../../commons/Nav';
-import Footer from '../../commons/Footer';
+import HomeList from './HomeList';
+import HomeBanner from './HomeBanner';
+import HomeGoods from './HomeGoods';
 export default {
     name: 'Home',
     data() {
@@ -18,7 +22,11 @@ export default {
         }
     },
     components:{
-        Header,Nav,Footer
+        Header,
+        Nav,
+        HomeList,
+        HomeBanner,
+        HomeGoods
     }
 }
 </script>

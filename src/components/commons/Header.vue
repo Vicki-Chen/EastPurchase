@@ -41,7 +41,6 @@
 			background-color: #d42e2c;
 		    border: 1px solid #d42e2c;
 		    padding-left: 10px;
-		    // font-weight: 700;
 		    .fs(18);
 		}
 		.fa-search{
