@@ -1,11 +1,13 @@
 <template>
     <div>
         <Header></Header>
+        <Nav></Nav>
     </div>
 </template>
 
 <script type="text/javascript">
 import Header from '../../commons/Header';
+import Nav from '../../commons/Nav';
 export default {
     name: 'Home',
     data() {
@@ -14,7 +16,7 @@ export default {
         }
     },
     components:{
-        Header
+        Header,Nav
     }
 }
 </script>
